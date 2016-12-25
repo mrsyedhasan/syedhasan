@@ -1,0 +1,2 @@
+//This is the command to run nightwatch tests from the terminal
+nightwatch -c nightwatch_local.json

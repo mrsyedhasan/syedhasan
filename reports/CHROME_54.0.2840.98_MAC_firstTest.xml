@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="firstTest"
+    errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
+    tests="1" time="8.468" timestamp="Thu, 15 Dec 2016 14:27:39 GMT">
+  
+    <testcase name="{{this should contain a small title of what the step is doing}}" time="8.468" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

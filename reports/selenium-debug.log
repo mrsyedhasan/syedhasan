@@ -1,0 +1,45 @@
+11:43:02.262 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+11:43:02.263 INFO - Launching a standalone Selenium Server
+2016-12-25 11:43:02.282:INFO::main: Logging initialized @231ms
+11:43:02.333 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+11:43:02.333 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+11:43:02.333 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:43:02.333 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+11:43:02.333 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:43:02.334 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2016-12-25 11:43:02.370:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-12-25 11:43:02.395:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2016-12-25 11:43:02.430:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
+2016-12-25 11:43:02.431:INFO:osjs.Server:main: Started @380ms
+11:43:02.431 INFO - Selenium Server is up and running
+11:43:02.623 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+11:43:02.651 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:43:02.664 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 45695
+Only local connections are allowed.
+11:43:02.954 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+11:43:03.661 INFO - Detected dialect: OSS
+11:43:03.688 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:43:03.707 INFO - Executing: [get: http://www.yahoo.com])
+11:43:06.418 INFO - Done: [get: http://www.yahoo.com]
+11:43:06.435 INFO - Executing: [find elements: By.cssSelector: .IconNavSearch])
+11:43:06.498 INFO - Done: [find elements: By.cssSelector: .IconNavSearch]
+11:43:06.504 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .IconNavSearch]])
+11:43:06.535 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .IconNavSearch]]
+11:43:06.550 INFO - Executing: [find element: By.cssSelector: input[name="p"]])
+11:43:06.585 INFO - Done: [find element: By.cssSelector: input[name="p"]]
+11:43:06.593 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]])
+11:43:06.699 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]]
+11:43:06.714 INFO - Executing: [find element: By.cssSelector: #uh-search-button])
+11:43:06.746 INFO - Done: [find element: By.cssSelector: #uh-search-button]
+11:43:06.751 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: #uh-search-button]])
+11:43:06.817 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: #uh-search-button]]
+11:43:06.829 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+11:43:06.865 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+11:43:07.376 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+11:43:08.390 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+11:43:08.396 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .reg.searchLeftTop]])
+11:43:08.409 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .reg.searchLeftTop]]
