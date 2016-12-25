@@ -1,45 +1,72 @@
-11:43:02.262 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
-11:43:02.263 INFO - Launching a standalone Selenium Server
-2016-12-25 11:43:02.282:INFO::main: Logging initialized @231ms
-11:43:02.333 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:32:03.740 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+12:32:03.741 INFO - Launching a standalone Selenium Server
+2016-12-25 12:32:03.760:INFO::main: Logging initialized @241ms
+12:32:03.815 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-11:43:02.333 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:32:03.816 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-11:43:02.333 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:43:02.333 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+12:32:03.816 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:32:03.816 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-11:43:02.333 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:43:02.334 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2016-12-25 11:43:02.370:INFO:osjs.Server:main: jetty-9.2.15.v20160210
-2016-12-25 11:43:02.395:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
-2016-12-25 11:43:02.430:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
-2016-12-25 11:43:02.431:INFO:osjs.Server:main: Started @380ms
-11:43:02.431 INFO - Selenium Server is up and running
-11:43:02.623 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-11:43:02.651 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-11:43:02.664 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 45695
+12:32:03.816 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:32:03.816 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2016-12-25 12:32:03.858:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2016-12-25 12:32:03.883:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2016-12-25 12:32:03.918:INFO:osjs.ServerConnector:main: Started ServerConnector@7823a2f9{HTTP/1.1}{0.0.0.0:4444}
+2016-12-25 12:32:03.919:INFO:osjs.Server:main: Started @399ms
+12:32:03.919 INFO - Selenium Server is up and running
+12:32:04.115 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:32:04.143 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:32:04.156 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 25892
 Only local connections are allowed.
-11:43:02.954 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-11:43:03.661 INFO - Detected dialect: OSS
-11:43:03.688 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-11:43:03.707 INFO - Executing: [get: http://www.yahoo.com])
-11:43:06.418 INFO - Done: [get: http://www.yahoo.com]
-11:43:06.435 INFO - Executing: [find elements: By.cssSelector: .IconNavSearch])
-11:43:06.498 INFO - Done: [find elements: By.cssSelector: .IconNavSearch]
-11:43:06.504 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .IconNavSearch]])
-11:43:06.535 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .IconNavSearch]]
-11:43:06.550 INFO - Executing: [find element: By.cssSelector: input[name="p"]])
-11:43:06.585 INFO - Done: [find element: By.cssSelector: input[name="p"]]
-11:43:06.593 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]])
-11:43:06.699 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]]
-11:43:06.714 INFO - Executing: [find element: By.cssSelector: #uh-search-button])
-11:43:06.746 INFO - Done: [find element: By.cssSelector: #uh-search-button]
-11:43:06.751 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: #uh-search-button]])
-11:43:06.817 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: #uh-search-button]]
-11:43:06.829 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
-11:43:06.865 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
-11:43:07.376 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
-11:43:08.390 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
-11:43:08.396 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .reg.searchLeftTop]])
-11:43:08.409 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (4db7109f910b7cab4d2035974579c65d)] -> css selector: .reg.searchLeftTop]]
+12:32:04.452 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+12:32:05.116 INFO - Detected dialect: OSS
+12:32:05.143 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=First Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:32:05.166 INFO - Executing: [get: http://www.yahoo.com])
+12:32:08.426 INFO - Done: [get: http://www.yahoo.com]
+12:32:08.441 INFO - Executing: [find elements: By.cssSelector: .IconNavSearch])
+12:32:08.495 INFO - Done: [find elements: By.cssSelector: .IconNavSearch]
+12:32:08.511 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: .IconNavSearch]])
+12:32:08.553 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: .IconNavSearch]]
+12:32:08.563 INFO - Executing: [find element: By.cssSelector: input[name="p"]])
+12:32:08.620 INFO - Done: [find element: By.cssSelector: input[name="p"]]
+12:32:08.630 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]])
+12:32:08.740 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: input[name="p"]], [e, c, o, n, o, m, y]]
+12:32:08.754 INFO - Executing: [find element: By.cssSelector: #uh-search-button])
+12:32:08.779 INFO - Done: [find element: By.cssSelector: #uh-search-button]
+12:32:08.785 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: #uh-search-button]])
+12:32:08.874 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: #uh-search-button]]
+12:32:08.889 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+12:32:08.911 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+12:32:09.420 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+12:32:19.476 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+12:32:19.480 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: .reg.searchLeftTop]])
+12:32:19.492 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (abd1967cbd1b1305459ffc4889d4dbaf)] -> css selector: .reg.searchLeftTop]]
+12:32:19.509 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Secondtest, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:32:19.509 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Secondtest, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 42713
+Only local connections are allowed.
+12:32:19.546 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+12:32:20.261 INFO - Detected dialect: OSS
+12:32:20.263 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Secondtest, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:32:20.268 INFO - Executing: [get: https://www.yahoo.com])
+12:32:22.904 INFO - Done: [get: https://www.yahoo.com]
+12:32:22.915 INFO - Executing: [find elements: By.cssSelector: .IconNavSearch])
+12:32:22.949 INFO - Done: [find elements: By.cssSelector: .IconNavSearch]
+12:32:22.954 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: .IconNavSearch]])
+12:32:22.968 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: .IconNavSearch]]
+12:32:22.973 INFO - Executing: [find element: By.cssSelector: input[name="p"]])
+12:32:22.997 INFO - Done: [find element: By.cssSelector: input[name="p"]]
+12:32:23.015 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: input[name="p"]], [k, n, i, c, k, s]])
+12:32:23.256 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: input[name="p"]], [k, n, i, c, k, s]]
+12:32:23.264 INFO - Executing: [find element: By.cssSelector: #uh-search-button])
+12:32:23.354 INFO - Done: [find element: By.cssSelector: #uh-search-button]
+12:32:23.361 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: #uh-search-button]])
+12:32:23.447 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: #uh-search-button]]
+12:32:23.453 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+12:32:23.483 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+12:32:23.989 INFO - Executing: [find elements: By.cssSelector: .reg.searchLeftTop])
+12:32:24.994 INFO - Done: [find elements: By.cssSelector: .reg.searchLeftTop]
+12:32:25.001 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: .reg.searchLeftTop]])
+12:32:25.013 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (9486e46ee3b6fae25529a8b18d9fa12f)] -> css selector: .reg.searchLeftTop]]
